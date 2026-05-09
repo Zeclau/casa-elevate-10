@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Casa en Venta — Valle Sandino, Managua | $45,000 USD" },
       { name: "description", content: "Casa moderna en Valle Sandino, Carretera Nueva a León. 2 habitaciones, 1 baño. Excelente oportunidad de inversión. $45,000 USD." },
       { name: "author", content: "Ligia Donaire — Keller Williams Nicaragua" },
-      { property: "og:title", content: "Casa Moderna en Valle Sandino — $45,000 USD" },
-      { property: "og:description", content: "Ideal para vivir o invertir en zona de alta demanda sobre Carretera Nueva a León." },
+      { property: "og:title", content: "Casa en Venta — Valle Sandino, Managua | $45,000 USD" },
+      { property: "og:description", content: "Casa moderna en Valle Sandino, Carretera Nueva a León. 2 habitaciones, 1 baño. Excelente oportunidad de inversión. $45,000 USD." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Casa en Venta — Valle Sandino, Managua | $45,000 USD" },
+      { name: "twitter:description", content: "Casa moderna en Valle Sandino, Carretera Nueva a León. 2 habitaciones, 1 baño. Excelente oportunidad de inversión. $45,000 USD." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/f64408a3-94e0-4a96-bc00-f2101b19578d" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/f64408a3-94e0-4a96-bc00-f2101b19578d" },
     ],
     links: [
       {
